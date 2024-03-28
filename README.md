@@ -14,7 +14,7 @@ Start the simulation.
 # Project Features
 Temperature Measurement: The system uses a temperature sensor to periodically measure the temperature of the graphics card.
 Automatic Cooling: Based on the measured temperature values, the system automatically controls the fan speed to maintain the temperature within safe limits.
-Graphical User Interface (GUI): A simple graphical display of temperature and fan speed is implemented.
+Graphical User Interface (GUI): A simple graphical display of temperature.
 
 # Technologies Used
 STM32 CubeMX: Used for STM32 microcontroller configuration.
