@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"gputemperature\startup_stm32f103x6.o"
+"gputemperature\lcd_txt.o"
+"gputemperature\main.o"
+"gputemperature\stm32f1xx_it.o"
+"gputemperature\stm32f1xx_hal_msp.o"
+"gputemperature\stm32f1xx_hal_gpio_ex.o"
+"gputemperature\stm32f1xx_hal_adc.o"
+"gputemperature\stm32f1xx_hal_adc_ex.o"
+"gputemperature\stm32f1xx_hal.o"
+"gputemperature\stm32f1xx_hal_rcc.o"
+"gputemperature\stm32f1xx_hal_rcc_ex.o"
+"gputemperature\stm32f1xx_hal_gpio.o"
+"gputemperature\stm32f1xx_hal_dma.o"
+"gputemperature\stm32f1xx_hal_cortex.o"
+"gputemperature\stm32f1xx_hal_pwr.o"
+"gputemperature\stm32f1xx_hal_flash.o"
+"gputemperature\stm32f1xx_hal_flash_ex.o"
+"gputemperature\stm32f1xx_hal_exti.o"
+"gputemperature\stm32f1xx_hal_tim.o"
+"gputemperature\stm32f1xx_hal_tim_ex.o"
+"gputemperature\system_stm32f1xx.o"
+--strict --scatter "GPUTemperature\GPUTemperature.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GPUTemperature.map" -o GPUTemperature\GPUTemperature.axf
